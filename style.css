@@ -1,0 +1,117 @@
+body {
+    font-family: "Arial", sans-serif;
+    background: #fafafa;
+}
+
+h3, p {
+    color: #1c1c1c;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.container  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 30px;
+}
+
+.text-label {
+    width: 25%;
+    margin-right: 30px;
+}
+
+.text-label .header {
+    font-size: 42px;
+    margin-bottom: 10px;
+
+}
+
+.text-label .description {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.buttons {
+    display: inline-flex;
+    flex-direction: row;
+
+    background: #fff;
+    border-radius: 20px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.06)
+
+}
+
+.buttons span {
+    font-size: 14px;
+}
+
+.products-btn {
+    font-weight: 600;
+}
+
+.buttons > * {
+    border-right: 7px;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.products-btn {
+    background-color: #6600ff;
+    color: #fff;
+    margin-right: 3px;
+}
+
+.subs-btn {
+    background-color: #d9d9d9;;
+
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 65%;
+}
+
+.card {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.06);
+    border-radius: 20px;
+    padding: 15px 20px;
+
+}
+
+.card-header {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card-description {
+    font-size: 14px;
+}
+
+.buy p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #6600ff;
+    margin-bottom: 5px;
+}
+.buy .action {
+    display: inline;
+    background-color: #6600ff;
+    color: #fff;
+    border-radius: 7px;
+
+    padding: 5px;
+}
+
+.card:not(:last-child) {
+    margin-right: 10px;
+}
